@@ -41,6 +41,11 @@ alert("Mi edad es: " + resultado)
         let numeracion ="0260"
         let mensaje ="la direccion es: " + direccion + " " + numeracion;
         let longitud = mensaje.length;
-        alert("Mensaje: " + mensaje + "\nLongitud: " + "\nAntepenultimo Caracter: " + mensaje[31])
+        alert("Mensaje: " + mensaje + "\nLongitud: " + "\nAntepenultimo Caracter: " + mensaje[32])
     }
-    
+
+    function sumaIndices(){
+        let arreglo = [1, 2, 3, 4, 5, 6, 7];
+        let resultado = arreglo[arreglo.length - 1] + arreglo[arreglo.length - 1]
+        alert("El resultado de la suma de los indices es: " + resultado)
+    }
