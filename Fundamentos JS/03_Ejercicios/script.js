@@ -15,10 +15,7 @@ function modificarMensaje() {
     }
 
     // Mostrar mensajes y diferencias
-    alert("Mensaje inicial: " + mensajeInicial.join(" ") + "\n" +
-          "Mensaje modificado: " + mensajeModificado.join(" ") + "\n" +
-          "Eliminados: " + eliminados.join(", ") + "\n" +
-          "Agregados: " + agregados.join(", "));
+    alert("Mensaje inicial: " + mensajeInicial.join(" ") + "\n" + "Mensaje modificado: " + mensajeModificado.join(" ") + "\n" + "Eliminados: " + eliminados.join(", ") + "\n" + "Agregados: " + agregados.join(", "));
 }
 
 // Función que realiza operaciones en un arreglo numérico
@@ -45,9 +42,5 @@ function operandoMetodos() {
     }
 
     // Mostrar arreglo inicial, final, valores eliminados, valores agregados y suma
-    alert("Arreglo inicial: " + arrInicial.join(" ") + "\n" +
-          "Arreglo final: " + arrFinal.join(" ") + "\n" +
-          "Valores eliminados: " + eliminados.join(", ") + "\n" +
-          "Valores agregados: " + agregados.join(", ") + "\n" +
-          "Suma de los elementos: " + suma);
+    alert("Arreglo inicial: " + arrInicial.join(" ") + "\n" + "Arreglo final: " + arrFinal.join(" ") + "\n" + "Valores eliminados: " + eliminados.join(", ") + "\n" + "Valores agregados: " + agregados.join(", ") + "\n" + "Suma de los elementos: " + suma);
 }
